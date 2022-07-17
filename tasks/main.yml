@@ -1,0 +1,6 @@
+---
+# tasks file for rhel-patch
+- name: Upgrade all  packages
+  yum:
+     name: "*"
+     state: latest
